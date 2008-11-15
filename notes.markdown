@@ -12,3 +12,5 @@
    * updating a project's submodules auto cleans the current branch: annoying
    * 
    * chaos can also ensue with normal workflows: http://rubyurl.com/Umhn (and even with a lone developer)
+   * dependencies can be individually imported into a {cloned,forked} project after registration
+   * capistrano comes with builtin, hassle-free support, but comes at the cost of having your deployment rely on (more) external servers
