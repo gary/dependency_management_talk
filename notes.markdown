@@ -12,3 +12,10 @@
    * updating a project's submodules auto cleans the current branch: annoying
    * 
    * chaos can also ensue with normal workflows: http://rubyurl.com/Umhn (and even with a lone developer)
+
+
+# resources #
+  * [How to use the subtree merge strategy](http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html)
+  * [Git User's Manual - Submodule Chapter](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules)
+  * [Easy Git Dependency Management wiht Giternal](http://www.rubyinside.com/giternal-easy-git-external-dependency-management-1322.html#comment-37316)
+  
