@@ -40,7 +40,7 @@
    * direct competition to Fran&ccedil;ois Beausoleil's piston (remember that one?)
    * supports both git and svn
    * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
-   * appears to be a wrapper for git's subtree merge strategy: no
+   * appears to be a wrapper for git's subtree merge strategy: yes
    * embeds dependencies in project: fail
    * maintains its own, clearly named remote branches for the dependencies it manages
    * straightforward and intuitive to use
