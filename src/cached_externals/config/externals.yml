@@ -1,0 +1,4 @@
+vendor/plugins/configatron-rails:
+  :type: git
+  :repository: git://github.com/markbates/configatron.git
+  :revision: e75d2ec9078ba2eabe4c8ba06ca21feb372b9f75
