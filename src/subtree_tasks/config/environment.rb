@@ -22,7 +22,6 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on. 
   # They can then be installed with "rake gems:install" on new installations.
-  config.gem 'sake'
   config.gem 'configatron', :version => '2.1.5'
 
   # Only load the plugins named here, in the order given. By default, all plugins 
