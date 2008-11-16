@@ -89,3 +89,18 @@
    * intended for larger projects where copy time noticeably slows deployment
    * not a standalone solution: use in conjunction with any of the above options
 
+# resources #
+  * [How to use the subtree merge strategy](http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html)
+  * [Git User's Manual - Submodule Chapter](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules)
+  * [Git Book - Submodules](http://book.git-scm.com/5_submodules.html)
+  * [Replacing Braid of Piston (for Git) with 40 lines of Rake](http://dysinger.net/2008/04/29/replacing-braid-or-piston-for-git-with-40-lines-of-rake/)
+  * [giternal@github](http://github.com/pat-maddox/giternal/tree/master)
+  * [Easy Git Dependency Management wiht Giternal](http://www.rubyinside.com/giternal-easy-git-external-dependency-management-1322.html#comment-37316)
+  * [braid@github](http://github.com/evilchelu/braid/tree/master)
+  * [braid 0.5 announcement](http://evil.che.lu/2008/10/29/braid-0-5-vendor-your-git-and-svn-repositories)
+  * [piston@github](http://github.com/francois/piston/tree/master)
+  * [ext@github](http://github.com/azimux/externals/tree/master)
+  * [externals-tutorial](http://nopugs.com/2008/09/06/ext-tutorial)
+  * [fast_remote_cache@github](http://github.com/37signals/fast_remote_cache/tree/master)
+  * [cached_externals@github](http://github.com/37signals/cached_externals/tree/master)
+  * [CachedExternals: managing application dependencies](http://www.37signals.com/svn/posts/1364-cachedexternals-managing-application-dependencies)
