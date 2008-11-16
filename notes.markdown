@@ -73,3 +73,9 @@
      * git subtree merge strategy: dependencies embedded in project
      * giternal, braid, and piston: freeze dependencies, call to `update` in deployment script
      * ext: `ext --workdir=#{current_release} ex`
+
+## 37 Signals' Fast Remote Cache ##
+   * custom Capistrano deployment option that hard links the project's assets instead of copying them
+   * intended for larger projects where copy time noticeably slows deployment
+   * not a standalone solution: use in conjunction with any of the above options
+
