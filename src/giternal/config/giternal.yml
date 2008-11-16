@@ -1,0 +1,3 @@
+configatron-rails:
+  repo: git://github.com/cmaggard/configatron-rails.git
+  path: vendor/plugins
