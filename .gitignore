@@ -1,0 +1,15 @@
+.DS_Store
+src/*/log/*
+src/*/tmp/*
+src/*/TAGS
+*~
+.#*
+src/*/schema/schema.rb
+src/*/schema/*_structure.sql
+src/*/schema/*.sqlite3
+src/*/schema/*.sqlite
+src/*/schema/*.db
+src/*/*.sqlite
+src/*/*.sqlite3
+src/*/*.db
+src/*/src/*
