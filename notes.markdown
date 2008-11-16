@@ -31,3 +31,6 @@
    * push/pull changes, freeze for deploy, unfreeze for updates
    * can also be used for the simpler, track-and-update use case as well
    * read [this thread](http://rubyurl.com/Umhn) for clarification of use cases, differences from braid
+   * uses repository cloning and pulling in conjunction with ignore entries
+   * that said, lacks the ability to import a dep at a stable version (master branch only)
+   * deploying with a known-stable version of a dependency is manual, but not a non-issue: manually change to desired branch, freeze, deploy
