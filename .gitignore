@@ -14,3 +14,4 @@ src/*/*.sqlite3
 src/*/*.db
 src/*/src/*
 src/*/vendor/gems/configatron-*
+src/giternal/vendor/plugins/configatron-rails/
