@@ -64,3 +64,12 @@
    * built with deployment in mind: export functionality
    * clever, unusual options such as a touch_emptydirs (for forcing git to track an empty dir)
    * hasn't seen any activity for a while
+
+# server-side (the other half) #
+## copying ##
+   * all of the approaches support some form of {copy,export}ing their managed dependencies:
+     * git submodules: pulled from various remote repositories (`set :git_enable_submodules, 1` in capistrano; initialization, update `:web_command` in vlad)
+     * git subtree merge strategy: dependencies embedded in project
+     * giternal: freeze dependencies, `giternal update` in deployment script
+     * braid & piston: call `update` in deployment script
+     * ext: 
