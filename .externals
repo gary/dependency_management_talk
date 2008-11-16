@@ -1,0 +1,7 @@
+[.]
+scm = git
+
+[src/ext/vendor/plugins/configatron-rails]
+scm = git
+path = src/ext/vendor/plugins/configatron-rails
+repository = git://github.com/cmaggard/configatron-rails.git
