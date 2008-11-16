@@ -35,12 +35,13 @@
    * that said, lacks the ability to import a dep at a stable version (master branch only)
    * deploying with a known-stable version of a dependency is manual, but not a non-issue: manually change to desired branch, freeze, deploy
 
-
 ## Cristi Balan's braid ##
-   * direct competition to François Beausoleil's Piston
+   * direct competition to François Beausoleil's piston
+   * supports both git and svn
    * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
-   * appears to be a wrapper for git's subtree merge strategy: TODO
+   * appears to be a wrapper for git's subtree merge strategy: yes
    * straightforward and intuitive to use
+   * handy rails plugin shorthand: braid add <repo_url> -p
    * on update, halts for dirty branches: good
    * deletion of deps doesn't clean up their remote branches, yet?
-   
+   * no support for sending changes upstream to dependencies, a la giternal
