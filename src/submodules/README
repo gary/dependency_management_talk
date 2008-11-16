@@ -1,5 +1,14 @@
-There's one gotcha to this example: all submodule operations must be
-performed from the repository's root.  Normally this would be a non-issue,
-but since I chose to include all example projects in this presentation's
-repository, you will be inconvenienced.  Use your shell's dirstack
-(if available) to work around the problem.
+Git Submodule Example Application
+=================================
+
+
+Gotchas
+-------
+
+All submodule operations must be performed from the repository's root.
+Normally this would be a non-issue, but since I chose to include all
+example projects in this presentation's repository, you will be
+inconvenienced.  Use your shell's dirstack (if available) to work around
+the problem.
+
+
