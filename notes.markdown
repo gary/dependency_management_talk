@@ -45,3 +45,5 @@
    * on update, halts for dirty branches: good
    * deletion of deps doesn't clean up their remote branches, yet?
    * no support for sending changes upstream to dependencies, a la giternal
+
+## François Beausoleil's piston ##
