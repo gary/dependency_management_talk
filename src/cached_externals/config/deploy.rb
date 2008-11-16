@@ -1,4 +1,6 @@
-set :application, "set your application name here"
+Dir['vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
+
+set :application, 'cached_externals demo app'
 set :repository,  "set your repository location here"
 
 # If you aren't deploying to /u/apps/#{application} on the target
