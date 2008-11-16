@@ -1,0 +1,3 @@
+[submodule "src/submodules/vendor/plugins/configatron-rails"]
+	path = src/submodules/vendor/plugins/configatron-rails
+	url = git://github.com/cmaggard/configatron-rails.git
