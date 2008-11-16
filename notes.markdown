@@ -24,3 +24,5 @@
   * [braid@github](http://github.com/evilchelu/braid/tree/master)
   * [braid 0.5 announcement](http://evil.che.lu/2008/10/29/braid-0-5-vendor-your-git-and-svn-repositories)
   * [piston@github](http://github.com/francois/piston/tree/master)
+  * [ext@github](http://github.com/azimux/externals/tree/master)
+  * [externals-tutorial](http://nopugs.com/2008/09/06/ext-tutorial)
