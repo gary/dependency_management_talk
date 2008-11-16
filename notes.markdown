@@ -53,3 +53,13 @@
    * minor gripe: some command names remain stuck in the past.  e.g., {un,}locking vs. {un,}freezing
    * most of documentation is still geared for the 1.4.x (svn) generation: fail
 
+## Miles Georgi's externals ##
+   * yet another scm-agnostic approach like piston and braid
+   * royal pain: --help all but requires piping to a pager
+   * takes agnostic to the project-level, although other project types haven't been implemented yet
+   * installation shorthand driven by project type (e.g., ext install <url> would install into vendor/plugins for a rails project)
+   * shows status for all dependencies or a specific one if specified
+   * deletion doesn't clean out .gitignore or .externals, yet?
+   * built with deployment in mind: export functionality
+   * clever, unusual options such as a touch_emptydirs (for forcing git to track an empty dir)
+   * hasn't seen any activity for a while
