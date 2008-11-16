@@ -40,7 +40,8 @@
    * direct competition to Fran&ccedil;ois Beausoleil's piston (remember that one?)
    * supports both git and svn
    * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
-   * appears to be a wrapper for git's subtree merge strategy: yes
+   * appears to be a wrapper for git's subtree merge strategy: no
+   * embeds dependencies in project: fail
    * straightforward and intuitive to use
    * handy rails plugin shorthand: `braid add <repo_url> -p`
    * on update, halts for dirty branches: good
@@ -81,7 +82,7 @@
    * all of the approaches support (minus cached externals) some form of {copy,export}ing their managed dependencies:
      * git submodules: pulled from various remote repositories (`set :git_enable_submodules, 1` in capistrano; initialization, update `:web_command` in vlad)
      * git subtree merge strategy: dependencies embedded in project
-     * giternal, braid, and piston: freeze dependencies, call to `update` in deployment script
+     * giternal and piston: freeze dependencies, call to `update` in deployment script
      * ext: `ext --workdir=#{current_release} ex`
 
 ## 37 Signals' Fast Remote Cache ##
