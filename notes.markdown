@@ -18,7 +18,7 @@
    * capistrano comes with builtin, hassle-free support, but comes at the cost of having your deployment rely on (more) external servers
 
 # tools that manage the git complexity #
-## Tim Dysinger's subtree merge rake tasks ##
+## Tim Dysinger's subtree merge sake tasks ##
    * pastie didn't work for me, so i created a new one [here](http://pastie.org/315840.txt)
    * simple to use, simple to setup
    * outdated and in need of updating for git 1.6.x
