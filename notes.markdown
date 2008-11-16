@@ -71,6 +71,5 @@
    * all of the approaches support some form of {copy,export}ing their managed dependencies:
      * git submodules: pulled from various remote repositories (`set :git_enable_submodules, 1` in capistrano; initialization, update `:web_command` in vlad)
      * git subtree merge strategy: dependencies embedded in project
-     * giternal: freeze dependencies, `giternal update` in deployment script
-     * braid & piston: call `update` in deployment script
-     * ext: 
+     * giternal, braid, and piston: freeze dependencies, call to `update` in deployment script
+     * ext: `ext --workdir=#{current_release} ex`
