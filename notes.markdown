@@ -78,6 +78,7 @@
    * setup via capistrano, established locally via `cap local externals:setup`
    * updating is trivial: updated the desired revision and execute the setup recipe again
    * ignore rules must be set manually
+   * script/generate has issues with symlinks?  did not detect generators from symlinked plugins
 
 # server-side (the other half) #
 ## copying ##
