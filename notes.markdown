@@ -26,3 +26,4 @@
   * [piston@github](http://github.com/francois/piston/tree/master)
   * [ext@github](http://github.com/azimux/externals/tree/master)
   * [externals-tutorial](http://nopugs.com/2008/09/06/ext-tutorial)
+  * [fast_remote_cache@github](http://github.com/37signals/fast_remote_cache/tree/master)
