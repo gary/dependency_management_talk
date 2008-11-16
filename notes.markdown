@@ -66,6 +66,16 @@
    * clever, unusual options such as a touch_emptydirs (for forcing git to track an empty dir)
    * hasn't seen any activity for a while
 
+# symlinking #
+## 37Signals' Cached Externals ##
+   * operates under the assumption that your dependencies won't change often... so why copy them with each deployment?
+   * trivial to install: `script/plugin install git://github.com/37signals/cached_externals.git`
+   * after that, dependencies are configured in `config/externals.yml`
+   * path, repository URL and revision are required (shorthand for revisions is supported, but can slow down the process)
+   * setup via capistrano, established locally via `cap local externals:setup`
+   * updating is trivial: updated the desired revision and execute the setup recipe again
+   * ignore rules must be set manually
+
 # server-side (the other half) #
 ## copying ##
    * all of the approaches support some form of {copy,export}ing their managed dependencies:
