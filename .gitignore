@@ -16,3 +16,5 @@ src/*/src/*
 src/*/vendor/gems/configatron-*
 src/giternal/vendor/plugins/configatron-rails/
 src/ext/vendor/plugins/configatron-rails
+src/cached_externals/vendor/plugins/configatron-rails
+src/shared/*
