@@ -18,5 +18,6 @@
   * [How to use the subtree merge strategy](http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html)
   * [Git User's Manual - Submodule Chapter](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules)
   * [Git Book - Submodules](http://book.git-scm.com/5_submodules.html)
-  * [Easy Git Dependency Management wiht Giternal](http://www.rubyinside.com/giternal-easy-git-external-dependency-management-1322.html#comment-37316)
   * [Replacing Brad of Piston (for Git) with 40 lines of Rake](http://dysinger.net/2008/04/29/replacing-braid-or-piston-for-git-with-40-lines-of-rake/)
+  * [giternal@github](http://github.com/pat-maddox/giternal/tree/master)
+  * [Easy Git Dependency Management wiht Giternal](http://www.rubyinside.com/giternal-easy-git-external-dependency-management-1322.html#comment-37316)
