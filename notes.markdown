@@ -27,3 +27,7 @@
    * follows the {rails,merb} configuration convention (i.e., YAML in config/)
    * did not work as advertised (giternal update) out of the box--err, installing from rubygems
    * hand installing the master did, however
+   * a great fit for dependencies that you have commit access to
+   * push/pull changes, freeze for deploy, unfreeze for updates
+   * can also be used for the simpler, track-and-update use case as well
+   * read [this thread](http://rubyurl.com/Umhn) for clarification of use cases, differences from braid
