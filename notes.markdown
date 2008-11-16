@@ -36,7 +36,7 @@
    * deploying with a known-stable version of a dependency is manual, but not a non-issue: manually change to desired branch, freeze, deploy
 
 ## Cristi Balan's braid ##
-   * direct competition to François Beausoleil's piston
+   * direct competition to François Beausoleil's piston (remember that one?)
    * supports both git and svn
    * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
    * appears to be a wrapper for git's subtree merge strategy: yes
@@ -47,3 +47,9 @@
    * no support for sending changes upstream to dependencies, a la giternal
 
 ## François Beausoleil's piston ##
+   * made maintaining forked subversion deps a cinch before git took over... at the cost of speed
+   * scm-agnostic rewrite **still** in the works... been a while (project initially debuted in 2006)
+   * still very rough around the edges: status call blows up
+   * minor gripe: some command names remain stuck in the past.  e.g., {un,}locking vs. {un,}freezing
+   * most of documentation is still geared for the 1.4.x (svn) generation: fail
+
