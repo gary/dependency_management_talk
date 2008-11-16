@@ -93,6 +93,10 @@
    * intended for larger projects where copy time noticeably slows deployment
    * not a standalone solution: use in conjunction with any of the above options
 
+## Viget Labs' RSync with Remote Cache ##
+   * another alternative to the standard, `:remote_cache` deployment option in Capistrano
+   * see github page for more details
+
 # resources #
   * [How to use the subtree merge strategy](http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html)
   * [Git User's Manual - Submodule Chapter](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules)
@@ -108,3 +112,4 @@
   * [fast_remote_cache@github](http://github.com/37signals/fast_remote_cache/tree/master)
   * [cached_externals@github](http://github.com/37signals/cached_externals/tree/master)
   * [CachedExternals: managing application dependencies](http://www.37signals.com/svn/posts/1364-cachedexternals-managing-application-dependencies)
+  * [capistrano_rsync_with_remote_cache@github](http://github.com/vigetlabs/capistrano_rsync_with_remote_cache/tree/master)
