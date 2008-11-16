@@ -42,6 +42,7 @@
    * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
    * appears to be a wrapper for git's subtree merge strategy: no
    * embeds dependencies in project: fail
+   * maintains its own, clearly named remote branches for the dependencies it manages
    * straightforward and intuitive to use
    * handy rails plugin shorthand: `braid add <repo_url> -p`
    * on update, halts for dirty branches: good
