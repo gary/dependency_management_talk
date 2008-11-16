@@ -23,4 +23,7 @@
    * simple to use, simple to setup
    * outdated and in need of updating for git 1.6.x
 
-
+## Pat Maddox's giternal ##
+   * follows the {rails,merb} configuration convention (i.e., YAML in config/)
+   * did not work as advertised (giternal update) out of the box--err, installing from rubygems
+   * hand installing the master did, however
