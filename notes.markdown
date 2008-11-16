@@ -60,6 +60,7 @@
 ## Miles Georgi's externals ##
    * yet another scm-agnostic approach like piston and braid
    * royal pain: `--help` all but requires piping to a pager
+   * {checkout,export,status,update} and {co,ex,st,up} have *different* behavior: confusing and unintuitive.  what happened to shorthand?
    * takes agnostic to the project-level, although other project types haven't been implemented yet
    * installation shorthand driven by project type (e.g., ext install <url> would install into vendor/plugins for a rails project)
    * shows status for all dependencies or a specific one if specified
