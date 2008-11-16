@@ -16,3 +16,11 @@
    * chaos can also ensue with normal workflows: http://rubyurl.com/Umhn (and even with a lone developer)
    * dependencies can be individually imported into a {cloned,forked} project after registration
    * capistrano comes with builtin, hassle-free support, but comes at the cost of having your deployment rely on (more) external servers
+
+# tools that manage the git complexity #
+## Tim Dysinger's subtree merge rake tasks ##
+   * pastie didn't work for me, so i created a new one [here](http://pastie.org/315840.txt)
+   * simple to use, simple to setup
+   * outdated and in need of updating for git 1.6.x
+
+
