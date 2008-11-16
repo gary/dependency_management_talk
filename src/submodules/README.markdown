@@ -2,9 +2,9 @@
 ## Getting Started ##
    * `rake gems:install`
    * `cd ../../`
-   * git submodule init
-   * git submodule update
-   * cd -
+   * `git submodule init`
+   * `git submodule update`
+   * `cd -`
    * run migrations, etc.
 
 ## Gotchas ##
