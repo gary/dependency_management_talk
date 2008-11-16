@@ -27,3 +27,5 @@
   * [ext@github](http://github.com/azimux/externals/tree/master)
   * [externals-tutorial](http://nopugs.com/2008/09/06/ext-tutorial)
   * [fast_remote_cache@github](http://github.com/37signals/fast_remote_cache/tree/master)
+  * [cached_externals@github](http://github.com/37signals/cached_externals/tree/master)
+  * [CachedExternals: managing application dependencies](http://www.37signals.com/svn/posts/1364-cachedexternals-managing-application-dependencies)
