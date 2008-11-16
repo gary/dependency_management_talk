@@ -34,3 +34,13 @@
    * uses repository cloning and pulling in conjunction with ignore entries
    * that said, lacks the ability to import a dep at a stable version (master branch only)
    * deploying with a known-stable version of a dependency is manual, but not a non-issue: manually change to desired branch, freeze, deploy
+
+
+## Cristi Balan's braid ##
+   * direct competition to François Beausoleil's Piston
+   * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
+   * appears to be a wrapper for git's subtree merge strategy: TODO
+   * straightforward and intuitive to use
+   * on update, halts for dirty branches: good
+   * deletion of deps doesn't clean up their remote branches, yet?
+   
