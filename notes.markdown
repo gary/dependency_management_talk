@@ -81,10 +81,10 @@
    * script/generate has issues with symlinks?  did not detect generators from symlinked plugins
 
 # server-side (the other half) #
-## copying ##
+## deploying ##
    * all of the approaches support (minus cached externals) some form of {copy,export}ing their managed dependencies:
      * git submodules: pulled from various remote repositories (`set :git_enable_submodules, 1` in capistrano; initialization, update `:web_command` in vlad)
-     * git subtree merge strategy: dependencies embedded in project
+     * git subtree merge strategy and braid embed dependencies in project, and require no extra steps
      * giternal and piston: freeze dependencies, call to `update` in deployment script
      * ext: `ext --workdir=#{current_release} ex`
 
