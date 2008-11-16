@@ -45,6 +45,7 @@
    * on update, halts for dirty branches: good
    * deletion of deps doesn't clean up their remote branches, yet?
    * no support for sending changes upstream to dependencies, a la giternal
+   * dependency status has not been implemented yet
 
 ## François Beausoleil's piston ##
    * made maintaining forked subversion deps a cinch before git took over... at the cost of speed
