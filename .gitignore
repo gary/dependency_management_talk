@@ -13,3 +13,4 @@ src/*/*.sqlite
 src/*/*.sqlite3
 src/*/*.db
 src/*/src/*
+src/*/vendor/gems/configatron-*
