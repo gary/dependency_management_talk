@@ -36,26 +36,28 @@
    * lacks the ability to import a dep at a stable version (master branch only)
    * deploying with a known-stable version of a dependency is manual, but not a non-issue: manually change to desired branch, freeze, deploy
 
-## Cristi Balan's braid ##
-   * direct competition to Fran&ccedil;ois Beausoleil's piston (remember that one?)
-   * supports both git and svn
-   * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
-   * appears to be a wrapper for git's subtree merge strategy: yes
-   * embeds dependencies in project: fail
-   * maintains its own, clearly named remote branches for the dependencies it manages
-   * straightforward and intuitive to use
-   * handy rails plugin shorthand: `braid add <repo_url> -p`
-   * on update, halts for dirty branches: good
-   * deletion of deps doesn't clean up their remote branches, yet
-   * no support for sending changes upstream to dependencies, a la giternal
-   * dependency status has not been implemented yet
-
 ## Fran&ccedil;ois Beausoleil's piston ##
    * made maintaining forked subversion deps a cinch before git took over... at the cost of speed
    * scm-agnostic rewrite **still** in the works... been a while (project initially debuted in 2006)
    * still very rough around the edges: status call blows up
    * minor gripe: some command names remain stuck in the past.  e.g., {un,}locking vs. {un,}freezing
    * most of documentation is still geared for the 1.4.x (svn) generation: fail
+
+## Cristi Balan's braid ##
+   * feature set similar to piston, but works exclusively with git
+   * direct competition to Fran&ccedil;ois Beausoleil's piston (remember that one?)
+   * can manage both git- and svn-based dependencies
+   * allows for complete control (add, update, delete) of dependencies, with more features planned for 0.6
+   * appears to be a wrapper for git's subtree merge strategy: yes
+   * embeds dependencies in project: possible fail for larger projects (used in conjunction with FastRemoteCache, however...)
+   * maintains its own, clearly named remote branches for the dependencies it manages
+   * straightforward and intuitive to use
+   * handy rails plugin shorthand: `braid add <repo_url> -p`
+   * on update, halts on most operations if branches are dirty: awesome
+   * deletion of deps doesn't clean up their remote branches, yet
+   * no support for sending changes upstream to dependencies, a la giternal
+   * dependency status planned but not been implemented yet
+   * can select mirrors that also import their whole history in the parent project (handy in the case of a shared models setup)
 
 ## Miles Georgi's externals ##
    * yet another scm-agnostic approach like piston and braid
